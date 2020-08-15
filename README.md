@@ -89,4 +89,4 @@ If you see something that looks like bash mongo command not found, then make sur
 
 * [MongoDB](https://www.mongodb.com/try/download/community) - Document-based, distributed database.
 * [Robo 3T (formerly Robomongo)](https://robomongo.org/download) - MongoDB Database Management IDE.
-* [(Postman)](https://www.postman.com/downloads/) - Test calls to APIs.
+* [Postman](https://www.postman.com/downloads/) - Test calls to APIs.
