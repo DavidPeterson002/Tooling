@@ -16,33 +16,33 @@ Download the current version of MongoDB. Make sure you select MSI as the package
 * B. Click Next to start installation.
 * C. Accept the licence agreement then click Next.
 * D. Select the Complete setup.
-* E. Select “Run service as Network Service user” and make a note of the data directory, we’ll need this later.
-* F. We won’t need Mongo Compass, so deselect it and click Next.
+* E. Select “Run service as Network Service user” and make a note of the data directory, you’ll need this later.
+* F. Deselect (Mongo Compass) and click Next.
 * G. Click Install to begin installation.
 * H. Hit Finish to complete installation.
 
 
 ### Step 3— Create the Data Folders to Store our Databases
-* A. Navigate to the C Drive on your computer using Explorer and create a new folder called data here.
-* B. Inside the data folder you just created, create another folder called db.
+* A. Navigate to the C Drive on your computer using Explorer and create a new folder called <mark>data</mark>.
+* B. Inside the data folder you just created, create another folder called <mark>db</mark>.
 
 
 ### Step 4 — Setup Alias Shortcuts for Mongo and Mongod
 Once installation is complete, we’ll need to set up MongoDB on the local system.
-* A. Open up your Hyper terminal running Git Bash.
+* A. Open up your Git Bash terminal.
 * B. Change directory to your home directory with the following command:
 ```
 cd ~
 ```
-* C. Here, we’re going to create a file called .bash_profile using the following command:
+* C. Here, you’re going to create a file called <mark>.bash_profile</mark> by using the following command:
 ```
 touch .bash_profile
 ```
-* D. Open the newly created .bash_profile with vim using the following command:
+* D. Open the newly created <mark>.bash_profile</mark> with vim using the following command:
 ```
 vim .bash_profile
 ```
-* E. In vim, hit the I key on the keyboard to enter insert mode.
+* E. In vim, hit the "I" key on the keyboard to enter insert mode.
 
 * F. In your explorer go to C → Program Files → MongoDB → Server
 Now you should see the version of your MongoDB.
@@ -60,8 +60,8 @@ to save and exit Vim.
 
 ### Step 5 — Verify That Setup was Successful
 * A. Close down the current Hyper terminal and quit the application.
-* B. Re-launch Hyper.
-* C. Type the following commands into the Hyper terminal:
+* B. Re-launch Git Bash terminal.
+* C. Type the following commands into the terminal:
 ```
 mongo --version
 ```
