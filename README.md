@@ -52,7 +52,7 @@ Now you should see the version of your MongoDB.
 alias mongod="/c/Program\ files/MongoDB/Server/4.4/bin/mongod.exe"
 alias mongo="/c/Program\ Files/MongoDB/Server/4.4/bin/mongo.exe"
 ```
-* H. Hit the Escape key on your keyboard to exit the insert mode. Then type
+* H. Hit the _**Esc**_ (Escape) key on your keyboard to exit the insert mode. Then type
 ```
 :wq!
 ```
