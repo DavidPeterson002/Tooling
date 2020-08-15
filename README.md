@@ -23,8 +23,8 @@ Download the current version of MongoDB. Make sure you select MSI as the package
 
 
 ### Step 3— Create the Data Folders to Store our Databases
-* A. Navigate to the C Drive on your computer using Explorer and create a new folder called <mark>data</mark>.
-* B. Inside the data folder you just created, create another folder called <mark>db</mark>.
+* A. Navigate to the C Drive on your computer using Explorer and create a new folder called _**data**_.
+* B. Inside the data folder you just created, create another folder called _**db**_.
 
 
 ### Step 4 — Setup Alias Shortcuts for Mongo and Mongod
@@ -34,15 +34,15 @@ Once installation is complete, we’ll need to set up MongoDB on the local syste
 ```
 cd ~
 ```
-* C. Here, you’re going to create a file called <mark>.bash_profile</mark> by using the following command:
+* C. Here, you’re going to create a file called _**.bash_profile**_ by using the following command:
 ```
 touch .bash_profile
 ```
-* D. Open the newly created <mark>.bash_profile</mark> with vim using the following command:
+* D. Open the newly created _**.bash_profile**_ with vim using the following command:
 ```
 vim .bash_profile
 ```
-* E. In vim, hit the "I" key on the keyboard to enter insert mode.
+* E. In vim, hit the _**I**_ key on the keyboard to enter insert mode.
 
 * F. In your explorer go to C → Program Files → MongoDB → Server
 Now you should see the version of your MongoDB.
